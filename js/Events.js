@@ -9,7 +9,7 @@ function removeWindowEvents(){
     window.removeEventListener('mousemove', launcher.holdPosition)
     window.removeEventListener('click',launcher.onClick);
 }
-
+// playnextlevel
 function playNextLevel(e){
     if(e) e.stopPropagation();
     if(currentMode=='arcade'){
