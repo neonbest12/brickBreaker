@@ -5,6 +5,7 @@ function addWindowEvents(){
     nextStageButton.addEventListener('click', playNextLevel)
 }
 
+
 function removeWindowEvents(){
     window.removeEventListener('mousemove', launcher.holdPosition)
     window.removeEventListener('click',launcher.onClick);
